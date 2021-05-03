@@ -23,5 +23,5 @@ jobs:
       - name: Promote
         run: |
           echo $GITHUB_WORKSPACE
-          "Promoting Latest Master Image to Target Environment"
+          echo "Promoting Latest Master Image to Target Environment"
           
