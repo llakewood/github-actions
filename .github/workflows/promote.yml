@@ -22,6 +22,6 @@ jobs:
 
       - name: Promote
         run: |
-          cd "$GITHUB_WORKSPACE"
-          echo{{ env.OS_NAMESPACE_SUFFIX }}
+          echo $GITHUB_WORKSPACE
+          "Promoting Latest Master Image to Target Environment"
           

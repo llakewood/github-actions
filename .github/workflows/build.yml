@@ -19,6 +19,6 @@ jobs:
 
       - name: Build & Deploy
         run: |
-          echo "$GITHUB_WORKSPACE"
+          echo $GITHUB_WORKSPACE
           echo "Building"
           echo "Deploying"
